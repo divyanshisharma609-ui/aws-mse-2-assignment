@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divyanshi Sharma</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">DS<span class="dot">.</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#beyond">Beyond Code</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <header id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Divyanshi Sharma</h1>
+      <p class="hero-tagline">First-year CSE &amp; Data Science student from Alwar, Rajasthan &middot; Automation &amp; Robotics enthusiast &middot; Classical dancer &middot; Home cook</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ───── ABOUT ───── -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a first-year B.Tech student in <strong>Computer Science &amp; Engineering (Data Science)</strong>, 
+            from <strong>Alwar, Rajasthan</strong>. I find equal joy in writing clean code and 
+            performing a classical dance sequence. My curiosity sits at the intersection of 
+            <em>software</em> and <em>hardware</em> — I love building things that move, sense, 
+            and automate the mundane.
+          </p>
+          <p>
+            When I'm not debugging a circuit or working on a hackathon project, you'll find me 
+            in the kitchen experimenting with recipes or practising dance. I believe the best 
+            engineers are the ones who stay curious about everything — whether it's a new 
+            algorithm or a new dish to master.
+          </p>
+        </div>
+        <div class="about-details">
+          <div class="detail-card">
+            <span class="detail-label">Degree</span>
+            <span class="detail-value">B.Tech CSE — Data Science (1st Year)</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">From</span>
+            <span class="detail-value">Alwar, Rajasthan</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">Languages</span>
+            <span class="detail-value">C++ &middot; JavaScript &middot; HTML/CSS</span>
+          </div>
+          <div class="detail-card">
+            <span class="detail-label">Hackathon</span>
+            <span class="detail-value">SIH Participant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── SKILLS ───── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Web Development</h3>
+          <p>Building responsive, accessible interfaces with HTML, CSS &amp; JavaScript. Comfortable turning a design into pixel-perfect code.</p>
+          <ul class="skill-tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">{&thinsp;}</div>
+          <h3>C++ &amp; Problem Solving</h3>
+          <p>Strong DSA foundation with C++. I enjoy competitive problems and writing efficient, readable code.</p>
+          <ul class="skill-tags">
+            <li>C++</li><li>STL</li><li>Data Structures</li><li>Algorithms</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Automation &amp; Robotics</h3>
+          <p>Fascinated by systems that think on their own — from sensor-driven bots to automated workflows and embedded projects.</p>
+          <ul class="skill-tags">
+            <li>Arduino</li><li>Sensors</li><li>IoT</li><li>Automation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128202;</div>
+          <h3>Data Science</h3>
+          <p>Exploring data analytics, visualisation, and machine-learning fundamentals as part of my core curriculum.</p>
+          <ul class="skill-tags">
+            <li>Python</li><li>Pandas</li><li>Visualisation</li><li>ML Basics</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card featured">
+          <div class="project-badge">SIH &middot; Team Project</div>
+          <div class="project-number">01</div>
+          <h3>Mila Mishi Saathi</h3>
+          <p>
+            An AI-based cognitive gaming &amp; memory assistance platform for elderly dementia patients, 
+            built during Smart India Hackathon. Features adaptive games (card matching, memory lights, 
+            routine ordering), daily reminders, a family memory vault, caregiver dashboard with analytics, 
+            voice assistance, and support for 12 languages including Assamese, Hindi &amp; Bengali.
+          </p>
+          <div class="project-tech">
+            <span>JavaScript</span><span>CSS</span><span>Supabase</span><span>PWA</span><span>Web Speech API</span>
+          </div>
+          <a href="https://team-solverse.vercel.app/" target="_blank" rel="noopener" class="project-link">View live site &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Personal Portfolio Website</h3>
+          <p>This very website — hand-coded with vanilla HTML, CSS &amp; JS. No frameworks, no templates, just clean code and thoughtful design.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Task Automation Suite</h3>
+          <p>A collection of scripts to automate repetitive tasks — file organisation, batch renaming, and system health checks.</p>
+          <div class="project-tech">
+            <span>Python</span><span>C++</span><span>Automation</span>
+          </div>
+        </article>
+
+      </div>
+      <p class="projects-note">More projects on the way — currently tinkering with robotics and home-automation ideas.</p>
+    </div>
+  </section>
+
+  <!-- ───── BEYOND CODE ───── -->
+  <section id="beyond" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Beyond Code</h2>
+      <div class="beyond-grid">
+        <div class="beyond-text">
+          <div class="beyond-block">
+            <h3>&#128131; Classical Dance</h3>
+            <p>
+              Dance has been a part of my life for as long as I can remember. I practice 
+              classical Indian dance forms — the discipline, expression, and rhythm 
+              it demands have taught me patience, body-awareness, and the art of 
+              telling stories without words.
+            </p>
+          </div>
+          <div class="beyond-block">
+            <h3>&#127859; Cooking</h3>
+            <p>
+              The kitchen is my second lab. I love experimenting with flavours, 
+              trying out new recipes, and feeding people good food. There's something 
+              satisfying about following a recipe just like following an algorithm — 
+              except you get to eat the output.
+            </p>
+          </div>
+        </div>
+        <div class="beyond-visual">
+          <div class="dance-card">
+            <blockquote>
+              "Creativity isn't split between artistic and technical — 
+              writing an elegant algorithm and choreographing a sequence 
+              both require structure, improvisation, and the willingness 
+              to iterate until it feels right."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Let's connect</h2>
+      <p class="contact-intro">
+        Have a project idea, want to collaborate, or just say hello? Drop me a message.
+      </p>
+      <form id="contact-form" class="contact-form" onsubmit="return handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="What's on your mind?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+      <div id="form-success" class="form-success hidden">
+        Thanks for reaching out! I'll get back to you soon.
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; 2026 Divyanshi Sharma. Crafted by hand.</p>
+      <div class="footer-links">
+        <a href="https://github.com/divyanshisharma609-ui" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
